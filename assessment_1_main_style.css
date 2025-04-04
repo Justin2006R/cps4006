@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(205, 239, 240)
+}
+
+.title_description{
+    background-color: aquamarine;
+    padding: 30px;
+    font-size: small;
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+}
+
+body{
+   width: 90%;
+   max-width: 1200px;
+   font-size: 1.5em;
+}
+
+.main_header{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.title{
+    color: rgb(20, 94, 59);
+    font-weight: 800;
+    font-size: 50px;
+    background-color: aquamarine;
+}

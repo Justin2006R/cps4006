@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(205, 239, 240)
+}
+
+h1{
+    background-color: rgb(145, 214, 191);
+    color: rgb(20, 94, 59);
+}
+
+a{
+    background-color: rgb(145, 214, 191);
+    color: rgb(20, 94, 59);
+}
+
+body{
+   width: 90%;
+   max-width: 1200px;
+   font-size: 1.5em;
+}
+
+.links_section {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;  
+    top: 20px;           
+    right: 20px;        
+    background-color: rgba(145, 214, 191);
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+}

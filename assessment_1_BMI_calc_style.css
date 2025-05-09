@@ -1,4 +1,3 @@
-/* Global Reset and Background */
 * {
     background-color: rgb(205, 239, 240);
 }
@@ -10,7 +9,6 @@ body {
     margin: 0 auto;
 }
 
-/* Headings and Text Styles */
 h1 {
     background-color: rgb(145, 214, 191);
     color: rgb(20, 94, 59);
@@ -32,7 +30,6 @@ a:hover {
     background-color: rgb(115, 184, 161);
 }
 
-/* Calculator Info Section */
 .calcInfo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
@@ -43,7 +40,20 @@ a:hover {
     font-weight: bold;
 }
 
-/* ========= Header and Layout ========= */
+#calculator {
+    width: 100%;
+    max-width: 400px;  
+    margin: 40px auto;  
+    padding: 20px;
+    background-color: rgb(145, 214, 191); 
+    border: 2px solid rgb(255, 255, 255);  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+p, h2, #result{
+    background-color: rgb(145, 214, 191); 
+}
 
 .main_header {
     display: flex;
@@ -71,7 +81,6 @@ a:hover {
     margin-top: 10px;
 }
 
-/* Links Section */
 .links_section {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgba(145, 214, 191);
@@ -82,15 +91,11 @@ a:hover {
     text-align: center;
 }
 
-/* Optional subtitle class */
 .subtitle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
 }
 
-/* ========= Responsive Design ========= */
-
-/* Tablets */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 1.3em;
@@ -105,7 +110,6 @@ a:hover {
     }
 }
 
-/* Mobile Phones */
 @media screen and (max-width: 600px) {
     body {
         font-size: 1.1em;
